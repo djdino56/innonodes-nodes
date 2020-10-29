@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  innonodes_nodes_dev:
+    build:
+      context: .
+    container_name: innonodes_nodes_dev
+    volumes:
+      - .:/src
+    stdin_open: true

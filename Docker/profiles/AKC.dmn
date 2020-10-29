@@ -1,0 +1,11 @@
+COIN_NAME="Akikcoin"
+COIN_PATH="/usr/local/bin/"
+COIN_DAEMON="akikcoind"
+COIN_CLI="akikcoin-cli"
+COIN_FOLDER="/root/.akikcoin"
+COIN_CONFIG="akikcoin.conf"
+COIN_SERVICE="akikcoin.service"
+RPC_PORT=19532
+COIN_GITHUB_WALLET="https://github.com/akikblockchain/akikcoin/releases/download/v1.0.2/akikcoin-v1.0.2-ubuntu16.04.zip"
+COIN_BOOTSTRAP_FILE="https://akikcoin.com/bootstrap.zip"
+COIN_VERSION="1.0.2"
