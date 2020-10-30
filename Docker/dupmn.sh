@@ -403,6 +403,7 @@ function cmd_profadd() {
             echo -e "${RED}ERROR:${NC} Found existing bootstrap file, not downloading the same ${BLUE}$prof_name${NC} bootstrap file"
         fi
         unzip -o ${prof[COIN_NAME]}-${prof[COIN_VERSION]}-bootstrap.zip -d ${prof[COIN_FOLDER]}
+        echo -e "Successfully unzipped bootstrap of ${BLUE}$prof_name${NC} and move to ${CYAN}${prof[COIN_FOLDER]}${NC}"
     else
         echo -e "${RED}ERROR:${NC} Can't find COIN_BOOTSTRAP_FILE, not automatically downloading the ${BLUE}$prof_name${NC} bootstrap file"
     fi
